@@ -1,0 +1,23 @@
+
+# Keys Chunk
+
+## Structure
+
+`KeysChunk`
+
+## Fields
+
+| Name | Type | Tags | Description |
+|  --- | --- | --- | --- |
+| `key` | `string` | Optional | If present, the NotificationGroupName will be listed here |
+| `value` | `bool` | Optional | DataPercentage50<br />True - Trigger on Data percentage is over 50% used<br />False - Do not trigger when over 50% used |
+
+## Example (as JSON)
+
+```json
+{
+  "key": null,
+  "value": null
+}
+```
+
